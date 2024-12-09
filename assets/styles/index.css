@@ -1,0 +1,67 @@
+* {
+  font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+}
+
+section {
+  background-color: #293f50;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-top: 20px;
+  color: white;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+}
+
+#you {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-size: x-small;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.one {
+  justify-self: center;
+}
+
+p2 {
+  font-size: 40px;
+  color: white;
+}
+
+footer {
+  background-color: #293f50;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 300px;
+  padding-right: 300px;
+  color: white;
+}
+
+.me {
+  padding: 20px;
+  width: 20%;
+}
